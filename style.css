@@ -1,0 +1,137 @@
+/*
+Name: Nikolin Mele
+Date Created: 02/16/2021
+Date modified: 02/20/2021
+*/
+
+
+/*This is an external CSS file for the indext.html (project 1)*/
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column1{
+    float: left;
+    padding: 10px;
+    height: auto;
+}
+
+.left{
+    width: 30%;
+}
+
+.img-column:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.image{
+    background-color:;
+    height: 430px;
+}
+
+#name{
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:midnightblue;
+    margin-top: auto;
+    margin-left: 80px;
+    
+}
+
+.paragraph{
+    width: 40em;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#aboutme{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.text-btn{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.text-btn:hover {
+    background:darkcyan;
+    
+}
+
+*{
+    box-sizing: border-box;
+}       
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 220px;
+}
+        
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    padding: 15px;
+    position:relative;
+    bottom: 0;
+    left: 0;                
+    width: 100%;                
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn{
+    border: none;
+    background-color: inherit;
+    padding: 8px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 20px;
+    color:#000;
+    font-weight: bold;
+    font-style: italic;
+    width: 300px;
+}
+
+.btn:hover {
+    background:darkcyan;
+    
+}
